@@ -1,0 +1,9 @@
+{
+    "gain": 16.0,
+    "true_peak_limiting": true,
+    "lookahead": 2.22,
+    "attack": 32.0,
+    "release": 245.0,
+    "channel_link_transients": 100.0,
+    "channel_link_release": 85.0
+}

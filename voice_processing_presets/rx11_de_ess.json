@@ -1,0 +1,7 @@
+{
+    "algorithm": "Classic De-ess",
+    "threshold": -4.5,
+    "cutoff_freq": 2500.0,
+    "speed": "Fast",
+    "absolute_mode": "Off"
+}

@@ -1,0 +1,10 @@
+{
+    "input_gain": 0.0,
+    "curve": 49.963158,
+    "effect": 3.0641975,
+    "output_gain": 0.0,
+    "in": "IN",
+    "band_split": false,
+    "clip_0db": true,
+    "bypass": false
+}

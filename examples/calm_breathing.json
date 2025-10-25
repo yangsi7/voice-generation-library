@@ -1,0 +1,110 @@
+{
+  "exercise": {
+    "id": "calm-breathing-v1",
+    "title": "Calm Breathing",
+    "description": "A simple 5-minute breathing exercise to reduce stress and promote relaxation. Focus on slow, deep breaths to activate your parasympathetic nervous system.",
+    "category": "stress-relief",
+    "tags": ["beginner", "quick", "anxiety", "relaxation"],
+    "duration_seconds": 300
+  },
+
+  "segments": [
+    {
+      "id": "intro",
+      "type": "narration",
+      "audio": {
+        "fragments": [
+          "Welcome to this calm breathing exercise.",
+          "Find a comfortable seated position.",
+          "Allow your shoulders to relax and your hands to rest gently in your lap.",
+          "When you're ready, gently close your eyes or soften your gaze."
+        ],
+        "max_duration_ms": 20000
+      }
+    },
+
+    {
+      "id": "practice",
+      "type": "breathing_cycle",
+      "breathing": {
+        "pattern": "calm",
+        "inhale_ms": 4000,
+        "exhale_ms": 6000,
+        "repetitions": 10
+      },
+      "audio": {
+        "fragments": [
+          "Breathe in slowly through your nose.",
+          "Notice the cool air as it enters.",
+          "Exhale gently through your mouth.",
+          "Feel your body softening with each breath."
+        ],
+        "max_duration_ms": 8500,
+        "timing": "inhale_phase"
+      }
+    },
+
+    {
+      "id": "deepening",
+      "type": "breathing_cycle",
+      "breathing": {
+        "inhale_ms": 5000,
+        "exhale_ms": 7000,
+        "repetitions": 8
+      },
+      "audio": {
+        "fragments": [
+          "Now let your breath deepen.",
+          "Breathe in for a count of five.",
+          "Exhale for a count of seven.",
+          "Allow any tension to melt away."
+        ],
+        "max_duration_ms": 10000,
+        "timing": "full_cycle"
+      }
+    },
+
+    {
+      "id": "natural_breathing",
+      "type": "breathing_cycle",
+      "breathing": {
+        "pattern": "natural",
+        "duration_ms": 60000,
+        "repetitions": 1
+      },
+      "audio": {
+        "fragments": [
+          "Now breathe naturally at your own pace.",
+          "Notice the gentle rhythm of your breath.",
+          "There's nowhere to go, nothing to do.",
+          "Just breathe and be present."
+        ],
+        "max_duration_ms": 15000
+      }
+    },
+
+    {
+      "id": "closing",
+      "type": "narration",
+      "audio": {
+        "fragments": [
+          "Begin to deepen your breath once more.",
+          "Gently wiggle your fingers and toes.",
+          "When you're ready, slowly open your eyes.",
+          "Thank you for taking this time to breathe.",
+          "Carry this sense of calm with you throughout your day."
+        ],
+        "max_duration_ms": 25000
+      }
+    }
+  ],
+
+  "voice_config": {
+    "provider": "elevenlabs",
+    "model": "eleven_multilingual_v2",
+    "stability": 0.7,
+    "similarity_boost": 0.75,
+    "style": 0.2,
+    "use_speaker_boost": true
+  }
+}

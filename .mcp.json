@@ -1,0 +1,61 @@
+{
+  "mcpServers": {
+    "brave-search": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-brave-search"
+      ],
+      "env": {
+        "BRAVE_API_KEY": ""
+      }
+    },
+    "mcp-server-firecrawl": {
+      "command": "npx",
+      "args": ["-y", "firecrawl-mcp"],
+      "env": {
+        "FIRECRAWL_API_KEY": "",
+
+        "FIRECRAWL_RETRY_MAX_ATTEMPTS": "5",
+        "FIRECRAWL_RETRY_INITIAL_DELAY": "2000",
+        "FIRECRAWL_RETRY_MAX_DELAY": "30000",
+        "FIRECRAWL_RETRY_BACKOFF_FACTOR": "3",
+
+        "FIRECRAWL_CREDIT_WARNING_THRESHOLD": "2000",
+        "FIRECRAWL_CREDIT_CRITICAL_THRESHOLD": "500"
+      }
+    },
+    "mcp-server-firecrawl": {
+      "command": "npx",
+      "args": ["-y", "firecrawl-mcp"],
+      "env": {
+        "FIRECRAWL_API_KEY": "fc-fbf3d554863348fb9a7c54436ad069c9",
+
+        "FIRECRAWL_RETRY_MAX_ATTEMPTS": "5",
+        "FIRECRAWL_RETRY_INITIAL_DELAY": "2000",
+        "FIRECRAWL_RETRY_MAX_DELAY": "30000",
+        "FIRECRAWL_RETRY_BACKOFF_FACTOR": "3",
+
+        "FIRECRAWL_CREDIT_WARNING_THRESHOLD": "2000",
+        "FIRECRAWL_CREDIT_CRITICAL_THRESHOLD": "500"
+      }
+    },
+    "Ref": {
+      "command": "npx",
+      "args": [
+        "ref-tools-mcp@latest"
+      ],
+      "env": {
+        "REF_API_KEY": ""
+      }
+    },
+    "speech-mcp": {
+      "command": "uvx",
+      "args": [
+        "-p",
+        "3.10",
+        "speech-mcp@latest"
+      ]
+    }
+  }
+}

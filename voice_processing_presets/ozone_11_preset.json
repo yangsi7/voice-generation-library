@@ -1,0 +1,145 @@
+{
+    "Clarity": {
+      "enabled": true,
+      "Tilt": -1.0,
+      "Amount": 25.0
+    },
+    "DynamicEQ": {
+      "enabled": true,
+      "Band 1 Threshold": -25.77632141,
+      "Band 4 Q": 4.5,
+      "Band 3 Q": 4.5,
+      "Band 1 Frequency": 100.00003052,
+      "Band 3 Shape": "Bell",
+      "Band 4 Shape": "Bell",
+      "Band 2 Threshold": -25.39835358,
+      "Band 4 Frequency": 9201.41992188,
+      "Band 1 Gain": -3.99999809,
+      "Band 6 Frequency": 13169.83300781,
+      "Band 6 Visible": true,
+      "Band 6 Threshold": -37.16090393,
+      "Band 6 Gain": -1.99999809,
+      "Band 5 Threshold": -29.934021,
+      "Band 4 Threshold": -36.45835876,
+      "Band 4 Visible": true,
+      "Band 4 Gain": -3.99999809,
+      "Band 3 Gain": -3.99999809,
+      "Band 3 Enable": true,
+      "Band 3 Threshold": -35.31765747,
+      "Band 1 Shape": "Bell",
+      "Band 6 Enable": true,
+      "Band 3 Frequency": 862.92456055,
+      "Band 4 Enable": true,
+      "Band 3 Visible": true
+    },
+    "Dynamics": {
+      "enabled": true,
+      "Band 2 Comp Release": 15.0,
+      "Band 1 Active": true,
+      "Mode": 1,
+      "Band 2 Mix": 70.0,
+      "Band 1 Mix": 50.0,
+      "Band 0 Bypass": true,
+      "Active Band": 1,
+      "Band 1 Comp Release": 40.0
+    },
+    "EQ": {
+      "enabled": true,
+      "Band 3 Visible": true,
+      "Band 8 Q": 8.72222233,
+      "Band 8 Visible": true,
+      "Band 8 Shape": "High Shelf",
+      "Band 8 Gain": 0.75086212,
+      "Band 8 Enable": true,
+      "Band 3 Q": 0.22690044,
+      "Band 3 Enable": true,
+      "Band 2 Frequency": 290.69824219,
+      "Band 2 Enable": true,
+      "Band 1 Q": 8.72222233,
+      "Band 1 Gain": 1.30812454,
+      "Band 1 Enable": true,
+      "Gain Scaling Amount": 20.98765373,
+      "Band 3 Frequency": 13242.91894531,
+      "Band 2 Gain": 2.0,
+      "Band 8 Frequency": 19767.48046875,
+      "Band 1 Frequency": 200.0,
+      "Band 2 Visible": true,
+      "Band 3 Gain": -1.64786339,
+      "Band 1 Visible": true,
+      "Band 2 Q": 0.49316263
+    },
+    "EQ2": {
+      "enabled": true,
+      "Band 7 Frequency": 6000.0,
+      "Band 1 Q": 2.23000002,
+      "Band 7 Q": 2.23000002
+    },
+    "Exciter": {
+      "enabled": true,
+      "Band 2 Active": true,
+      "Band 1 Active": true,
+      "Band 3 Active": true
+    },
+    "Global": {
+      "enabled": true,
+      "Stem Mode": 1
+    },
+    "Imager": {
+      "enabled": true,
+      "Recover Sides Gain Offset (dB)": -0.00001907
+    },
+    "Impact": {
+      "enabled": true,
+      "Envelope": 100.0,
+      "Crossover Cutoff 2": 2000.0,
+      "Crossover Cutoff 1": 120.0,
+      "Band 3 Amount": -77.24832153,
+      "Band 1 Amount": -78.13657379,
+      "Aux: HostSyncEnvelopeEnabled": false,
+      "HostSyncEnvelopeEnabled": false,
+      "MainAutoGainEnabled": true,
+      "Aux: Envelope": 100.0,
+      "Band 2 Amount": -70.0435257,
+      "GlobalAmount": 50.0,
+      "Band 4 Amount": -67.58477783,
+      "Crossover Cutoff 3": 10000.0
+    },
+    "MasterRebalance": {
+      "enabled": true,
+      "ProcessingMode": 1
+    },
+    "Maximizer": {
+      "enabled": true,
+      "Target Loudness [dB]": -12.0,
+      "Mode": 3,
+      "EnableSoftClipping": true,
+      "Character": 2.79999995,
+      "SoftClipMix": 8.0,
+      "LowLevelBoostWetAmount": 2.4000001,
+      "Stereo Transient Link Amount": 100.0,
+      "Stereo Link": 100.0,
+      "Margin": -0.10000038,
+      "EnableLowLevelBoost": true,
+      "Gain": 5.47292137
+    },
+    "Meters": {
+      "enabled": true
+    },
+    "Stabilizer": {
+      "enabled": true,
+      "Amount": 25.0
+    },
+    "VintageCompressor": {
+      "enabled": true
+    },
+    "VintageEQ": {
+      "enabled": true
+    },
+    "VintageLimiter": {
+      "enabled": true
+    },
+    "VintageTape": {
+      "enabled": true
+    }
+  }
+  

@@ -1,0 +1,93 @@
+# ============================================================================
+# Coverage.py Configuration for Voice Generation Library
+# ============================================================================
+
+[run]
+# Source code directories to measure
+source = voice_generation
+
+# Files to omit from coverage
+omit =
+    # Test files
+    */tests/*
+    */test_*.py
+
+    # Virtual environments
+    */venv/*
+    */virtualenv/*
+    */.venv/*
+
+    # Build artifacts
+    */build/*
+    */dist/*
+    */.eggs/*
+    */__pycache__/*
+
+    # IDE files
+    */.idea/*
+    */.vscode/*
+
+    # Temporary files
+    */tmp/*
+    */.cache/*
+
+branch = True
+parallel = False
+
+[report]
+# Precision of coverage percentages
+precision = 2
+
+# Show lines that weren't executed
+show_missing = True
+
+# Don't show files with 100% coverage
+skip_covered = False
+
+# Sort report by name
+sort = Name
+
+# Lines to exclude from coverage
+exclude_lines =
+    # Standard pragma
+    pragma: no cover
+
+    # Defensive programming
+    raise AssertionError
+    raise NotImplementedError
+    raise ValueError\(".*Subclass must implement.*"\)
+
+    # Type checking imports
+    if TYPE_CHECKING:
+    if typing.TYPE_CHECKING:
+
+    # Debugging code
+    def __repr__
+    def __str__
+    if self\.debug:
+    if settings\.DEBUG
+
+    # Abstract methods
+    @abstractmethod
+    @abc.abstractmethod
+    @abstractproperty
+
+    # Non-runnable code
+    if __name__ == .__main__.:
+    if 0:
+    if False:
+    pass
+
+    # Ellipsis (protocol/stub definitions)
+    \.\.\.
+
+[html]
+directory = htmlcov
+title = Voice Generation Library - Coverage Report
+
+[xml]
+output = coverage.xml
+
+[json]
+output = coverage.json
+pretty_print = True
